@@ -1,0 +1,8 @@
+citizenship = str(input("Enter your Citizenship status: "))
+age = int(input("Enter your current age: "))
+
+if citizenship == "Malaysian" or citizenship == "malaysian" and age >= 18:
+    print("You are eligible to vote")
+
+else:
+    print("You are NOT eligible to vote")
